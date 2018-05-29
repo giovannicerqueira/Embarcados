@@ -9,7 +9,7 @@ LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 void setup() {
   sensor.begin();
   lcd.begin(16, 2);
-  lcd.print("Umid");
+  lcd.print("Humid");
   lcd.setCursor(7,0);
   lcd.print("Temp");
 }
